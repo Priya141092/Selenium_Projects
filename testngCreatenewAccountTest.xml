@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="main.java.Utility.Listener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+  <classes>
+      <!--class name="Add_to_cart_pageTest"/>-->
+      <!--class name="HomePage_ShopnewYogaTest"/>-->
+      <class name="Create_new_accountTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
